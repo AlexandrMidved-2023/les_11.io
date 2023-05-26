@@ -1,0 +1,201 @@
+@import url('./normalize.css');
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+    font-family: 'Lato-Light';
+    src: url(../fonts/Lato-Light.ttf ) format('truetype');
+    font-family: 'Lato-Bold';
+    src: url(../fonts/Lato-Bold.ttf ) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Lato-Regular', sans-serif;
+    background: #F6F6F6;
+    color: #3C3C3C;
+}
+
+/* -------------------------------------------------- */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.header {
+    background: #fff;
+    padding: 10px 0;
+}
+
+.menu {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.menu-smaller {
+    font-size: 1.125rem;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #18B5DC;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 40px 0;
+}
+
+.btn {
+    margin: 19px 0;
+}
+
+.btn-link {
+    padding: 10px 20px;
+    border: 1px solid #3C3C3C;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    border: 1px solid #18B5DC;
+    background: #18B5DC;
+    color: #fff;
+}
+
+/* ----------------------------- */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.top-text {
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.item-flex {
+    display: flex;
+    gap: 30px;
+}
+
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22px;
+    margin-top: 20px;
+}
+
+.prof {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.22px;
+    color: #646464;
+}
+
+/* ------------------------------- */
+.nav-margin {
+    margin: 28px 0;
+}
+
+.menu-gap {
+    gap: 10px;
+}
+
+.menu-link--width {
+    display: block;
+    width: 43px;
+    height: 42px;
+}
+
+.menu-link--bg-1 {
+    background: url(../assets/img/twitter.png);
+}
+
+.menu-link--bg-2 {
+    background: url(../assets/img/facebook.png);
+}
+
+.menu-link--bg-3 {
+    background: url(../assets/img/instagram.png);
+}
+
+.menu-link--bg-4 {
+    background: url(../assets/img/linkedin.png);
+}
+
+.menu-link--bg-5 {
+    background: url(../assets/img/telegram.png);
+}
+
+.menu-link--bg-1:hover {
+    background: url(../assets/img/twitter_hover.png);
+}
+
+.menu-link--bg-2:hover {
+    background: url(../assets/img/facebook_hover.png);
+}
+
+.menu-link--bg-3:hover {
+    background: url(../assets/img/instagram_hover.png);
+}
+
+.menu-link--bg-4:hover {
+    background: url(../assets/img/linkedin_hover.png);
+}
+
+.menu-link--bg-5:hover {
+    background: url(../assets/img/telegram_hover.png);
+}
